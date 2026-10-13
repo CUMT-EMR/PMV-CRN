@@ -1,0 +1,410 @@
+{
+  "dual_branch_cmr_model.py:TEMPORAL_CONCEPT_NAMES": {
+    "module": "pmv_crn.models.common",
+    "sha256": "4cb5fb32fbf4d18c348db00fbddffde0e18a3d49099b0543bae7f0e23ef84ecc"
+  },
+  "dual_branch_cmr_model.py:IMAGE_CONCEPT_NAMES": {
+    "module": "pmv_crn.models.common",
+    "sha256": "b62d4556a11c6f9efa1a21c4f617fcc779f5c3f194257761ffaa3e76abfd31a4"
+  },
+  "dual_branch_cmr_model.py:BINARY_CLASS_NAMES": {
+    "module": "pmv_crn.models.common",
+    "sha256": "94a1e283e027b652d4fb6aa24cca1c72f05254af264c5cbcdeed88010993da10"
+  },
+  "dual_branch_cmr_model.py:_group_count": {
+    "module": "pmv_crn.models.common",
+    "sha256": "6773a1f95ea0311f8abca7f14a1a9602c6fe552ebf743809bf986a171e2dbb3a"
+  },
+  "dual_branch_cmr_model.py:BranchCMROutput": {
+    "module": "pmv_crn.models.common",
+    "sha256": "e687ac2f7b83dbbbd8a2ab54829f5b2aef46fcb92c97dce5c81a3cc28512c88d"
+  },
+  "dual_branch_cmr_model.py:MultiScaleTemporalEncoder": {
+    "module": "pmv_crn.models.temporal",
+    "sha256": "84b324157d5b74343f903a73b6861fc6081e36d34d8f73d16c32a4fe7fd9f68f"
+  },
+  "dual_branch_cmr_model.py:_ResidualBlock2d": {
+    "module": "pmv_crn.models.image",
+    "sha256": "f3a31effd9afcfaa68ca8b160fa731d1fd8613118a86256b18e938bf95ebfbd7"
+  },
+  "dual_branch_cmr_model.py:_SqueezeExcite2d": {
+    "module": "pmv_crn.models.image",
+    "sha256": "824e4c6acd1ae0014a8f65eb443050da82536f345b488414f8e3598a2cacf006"
+  },
+  "dual_branch_cmr_model.py:_MultiScaleResidualBlock2d": {
+    "module": "pmv_crn.models.image",
+    "sha256": "6dd1a0640ba211e265567901570afcc2a096e0e4c618bd5f86c91554dbb051a4"
+  },
+  "dual_branch_cmr_model.py:_ImageViewCNN": {
+    "module": "pmv_crn.models.image",
+    "sha256": "70e6b02aefb08160905ddf60e8314831b7dccd30355fee1f6f8f7039cd6a358b"
+  },
+  "dual_branch_cmr_model.py:PrecursorImageEncoder": {
+    "module": "pmv_crn.models.image",
+    "sha256": "06eb38802a71d81389f0a092c0d5a91c871701a03e3b574374b78ccb185db919"
+  },
+  "dual_branch_cmr_model.py:SensorGroupedImageEncoder": {
+    "module": "pmv_crn.models.image",
+    "sha256": "73ed1620f3323227429307312667cc4ee79b650bd32db053edf2909bf2509c34"
+  },
+  "dual_branch_cmr_model.py:CMRRuleMemory": {
+    "module": "pmv_crn.models.concept_rule",
+    "sha256": "9c2a3b03a431fb54cf31cc0a2ac238884cbcde4a10f73574ddb7c5f060794af4"
+  },
+  "dual_branch_cmr_model.py:CrossAttentionFusion": {
+    "module": "pmv_crn.models.fusion",
+    "sha256": "865fd865a954abc8355a1a16583209614f6573d58071d2f9e54fcd696a58ee66"
+  },
+  "dual_branch_cmr_model.py:OptimizedDualBranchCMRNet": {
+    "module": "pmv_crn.models.network",
+    "sha256": "4d03d7c4a1bc7efcc721a6e96c25b537a18d9062e3d7c314a1021d60d6fbc7d3"
+  },
+  "dual_branch_cmr_model.py:supervised_cross_view_contrastive_loss": {
+    "module": "pmv_crn.training.losses",
+    "sha256": "b822a688fe16528b3db07e3629f383fe1f2b79393481bcf5487f2573b1372e6c"
+  },
+  "dual_branch_cmr_model.py:prototype_loss": {
+    "module": "pmv_crn.training.losses",
+    "sha256": "477f3c3efdbdbb0e0488e81fd8d75890db34352756bc53e3a663c38c282d533c"
+  },
+  "dual_branch_cmr_model.py:supervised_embedding_loss": {
+    "module": "pmv_crn.training.losses",
+    "sha256": "972c4fc01098276aef09f4a0ec4f9f4721b43329e3e3210b9e0f6852228e9355"
+  },
+  "dual_branch_cmr_model.py:rule_consistency_loss": {
+    "module": "pmv_crn.training.losses",
+    "sha256": "49f93911fa5d37f4aae75c105c5edba81968af96d06daed4d4e9e8f6345f565f"
+  },
+  "dual_branch_cmr_model.py:view_gate_balance_loss": {
+    "module": "pmv_crn.training.losses",
+    "sha256": "7690464f72cfc8847bcc32076e5b55d5ef0afb5df84cccb0221befc908593de2"
+  },
+  "dual_branch_cmr_model.py:view_diversity_loss": {
+    "module": "pmv_crn.training.losses",
+    "sha256": "110a8101614e2d8b99cce31739f218247073349c2ef7bb3ef5f7c19601a6c15f"
+  },
+  "dual_branch_cmr_model.py:branch_positive_rate_loss": {
+    "module": "pmv_crn.training.losses",
+    "sha256": "a487680a43f21a08c97ea689117869eee741eddaee13616458c6cfc303d02e9f"
+  },
+  "dual_branch_cmr_model.py:focal_loss": {
+    "module": "pmv_crn.training.losses",
+    "sha256": "01e7d2464c48f014008309d1371d1f4a295ab2c5db655ea0d487fa9e12fe66a5"
+  },
+  "dual_branch_cmr_model.py:optimized_dual_branch_cmr_loss": {
+    "module": "pmv_crn.training.losses",
+    "sha256": "7d80078b50b5c7798dcdfe9121cba99f8b51d405edcc59675d3f3ba149d630cd"
+  },
+  "dual_branch_cmr_model.py:set_seed": {
+    "module": "pmv_crn.utils.random",
+    "sha256": "c2f946f923bc4b088336d273d6905c4c2dc4b1348d5f53371981b9c6beaa3508"
+  },
+  "dual_branch_cmr_model.py:standardize_channels": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "237874dc3888b0b188c0b9c0005c834491ddb16a1e94548d295bc8d1397db1b1"
+  },
+  "dual_branch_cmr_model.py:resample_1d": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "68941977a2223648ae1ddeb96b7151017d42571dd6a8d99b03784118d4523303"
+  },
+  "dual_branch_cmr_model.py:minmax_1d": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "7b9d2025bca1d00bb1796cc31357bb5fbaea4ede14c028102b5dc1a9ef87ff3a"
+  },
+  "dual_branch_cmr_model.py:_moving_average": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "daabc46bc479a233f0c8a309a9e5052b7d78b69cd2b33b3a4ea5b0280dce7fb9"
+  },
+  "dual_branch_cmr_model.py:_similarity_matrix": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "0f15b8c85f56d0aff710cc9c3d6095ef148f85e478fe596da62a2c9a33cdd5d6"
+  },
+  "dual_branch_cmr_model.py:_gaf_sum_diff": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "e7f6d5f3f5bd241bbee35f70d641e03c4b600c1748235a73a3146f432f2c759a"
+  },
+  "dual_branch_cmr_model.py:_markov_transition_field": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "2138d42ae10cd3924fffaae6d1f3e31113121823ae61e4fb8d385f852af47b8e"
+  },
+  "dual_branch_cmr_model.py:_trajectory_raster": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "83f99d5122ee365787d082bac318d837d202fdc134936996cb99e63153b90b71"
+  },
+  "dual_branch_cmr_model.py:_resize_2d": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "c6810c8b8844eb98d4d22802d5a3448f514923a5e1ca3d4a3dcb0f960332e8ff"
+  },
+  "dual_branch_cmr_model.py:_stft_texture": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "83af36d31e1c3129b943fc880002c7cf57cb7c976b88c7d0c21134ec81e71066"
+  },
+  "dual_branch_cmr_model.py:_cwt_texture": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "e7b2deb2e97787640d02b08f764fc94edcbd589b4b109734d1112433fcb491eb"
+  },
+  "dual_branch_cmr_model.py:make_precursor_image_maps": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "c2ac89cd49f653db457d5f05a4814aad2969f54a722f58284f414d3deb908024"
+  },
+  "dual_branch_cmr_model.py:_safe_corr_np": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "fa515d9dbcef1a7f755fc7267350c6af250ce4904cced1c94fa3ad809654dc49"
+  },
+  "dual_branch_cmr_model.py:_cusum_np": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "3fb5f61b3269187a5fcda974e58ee768d409b2f7885124088b9cbc1f46233924"
+  },
+  "dual_branch_cmr_model.py:_sigmoid_np": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "923805283b25bd04f5a9c05975dabe5e06c1995abf697af476de4c000701246f"
+  },
+  "dual_branch_cmr_model.py:make_temporal_concept_prior": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "6fa5dc101ace38e4da54b4ff86dc5f77ca94d6b3c2f815d4824fcd0004cd4c81"
+  },
+  "dual_branch_cmr_model.py:_entropy01": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "732c1ee28e9f9320020cc3e9d0289d61878d236a92979a4fd5635bd0806ce470"
+  },
+  "dual_branch_cmr_model.py:make_image_concept_prior": {
+    "module": "pmv_crn.data.representations",
+    "sha256": "5add8307e2ee16e56959a32fa5a115648153e11ba39172e23c588e1d2c303f40"
+  },
+  "dual_branch_cmr_image_encoder_variants.py:PatchTransformerImageEncoder": {
+    "module": "pmv_crn.models.image_variants",
+    "sha256": "f0fe6a0496808acf02bd9864364170e2c1dff509d64eff0e865e70dee88ee792"
+  },
+  "dual_branch_cmr_image_encoder_variants.py:InceptionImageEncoder": {
+    "module": "pmv_crn.models.image_variants",
+    "sha256": "3e2875365014eb06f01090b893afc4a159d3e8ee3d436ca57ee89dd461d87b6c"
+  },
+  "dual_branch_cmr_image_encoder_variants.py:ImageEncoderVariantCMRNet": {
+    "module": "pmv_crn.models.variants",
+    "sha256": "a5d2c48a43de8273f46e0c5e6a121b94c293f622377dbd5e7e00a63a75559e3c"
+  },
+  "dual_branch_cmr_image_encoder_variants.py:OptimizedDualBranchCMRNet": {
+    "module": "pmv_crn.models.variants",
+    "sha256": "9d14590f63b81b06e85cf9a7a31544d3d9d0597f9111a8f459d5abb801e478bf"
+  },
+  "tmpmodel.py:STAT_FEATURE_DIM": {
+    "module": "pmv_crn.data.features",
+    "sha256": "fd95798975a7da367188cd867a70022a3f4638b598058d99a3c2a182f8f5a956"
+  },
+  "tmpmodel.py:make_future_any_labels": {
+    "module": "pmv_crn.data.features",
+    "sha256": "dccc0dc720a62f766c7daf950c12d83bfbf9b3b8e72164bf009e4b0567d74749"
+  },
+  "tmpmodel.py:window_stat_features": {
+    "module": "pmv_crn.data.features",
+    "sha256": "3e0ca7c8a1143f7580ca9731628aba825518ee0ed2957f988caadbcaf62eecdc"
+  },
+  "tmpmodel.py:compute_stat_normalizer": {
+    "module": "pmv_crn.data.features",
+    "sha256": "5ce5db05fee0aff37305025c88b6e35b51986dab8e780633e3a7135f65b25b6e"
+  },
+  "tmpmodel.py:label_segments": {
+    "module": "pmv_crn.data.splits",
+    "sha256": "9174c0833e911f4b72a0e51959110ae1b9bab04e515d546faf4825929fc1b0f4"
+  },
+  "tmpmodel.py:allocate_segments_by_class": {
+    "module": "pmv_crn.data.splits",
+    "sha256": "a6432e67f2a7ff23c3328a2bce411034691f868ae9bed33e61d55898c860e34f"
+  },
+  "tmpmodel.py:purge_near_splits": {
+    "module": "pmv_crn.data.splits",
+    "sha256": "180cf717d5487b8d67de67808aea0dc755e4d2058343120293e997236661b40e"
+  },
+  "tmpmodel.py:split_indices": {
+    "module": "pmv_crn.data.splits",
+    "sha256": "13f195f0f37a7b75a57e030b7cafd683f03d8f4ef815b3011cd1142ab4560fbd"
+  },
+  "tmpmodel.py:split_leakage_summary": {
+    "module": "pmv_crn.data.splits",
+    "sha256": "c6d527426a4cd002ad9162c13287e46b583fd166a10e931d42eb8c6ee556bfc9"
+  },
+  "tmpmodel.py:random_stratified_split": {
+    "module": "pmv_crn.data.splits",
+    "sha256": "9472dd2ac1a4bf1bb6d47e3f79d1a6affa58a9181ad8069124f075d3b11578f6"
+  },
+  "tmpmodel.py:blocked_random_stratified_split": {
+    "module": "pmv_crn.data.splits",
+    "sha256": "682d1582a449b7c4c43f074d7a1cb25679a45a810fcb92b4f7e31141945238f2"
+  },
+  "tmpmodel.py:RecursivePointDataset": {
+    "module": "pmv_crn.data.dataset",
+    "sha256": "13bfaa3fe3bb28e5954a4713dcd993b093f14820722bdd148e7bfbf7f4b8ce6f"
+  },
+  "tmpmodel.py:collate_points": {
+    "module": "pmv_crn.data.dataset",
+    "sha256": "1f6a0b2e5ee643fb967c93fc819313bc089d03c4d04de558e4b63dd8501784fe"
+  },
+  "tmpmodel.py:forward_model_batch": {
+    "module": "pmv_crn.training.batch",
+    "sha256": "03732979a02662de1dbe9ad7700f183b3286b4febdd12fbdb329d3b9f333b544"
+  },
+  "tmpmodel.py:metrics_from_prob": {
+    "module": "pmv_crn.evaluation.metrics",
+    "sha256": "b5815a1855811b9582e67ab7a7b51f70734552f750ac543a7704a7e6007f63ac"
+  },
+  "tmpmodel.py:fbeta_score_np": {
+    "module": "pmv_crn.evaluation.metrics",
+    "sha256": "35eba46fa5ba1a12c9b11395351f8c44c4aca10836026dd73785c612be01870a"
+  },
+  "tmpmodel.py:rolling_mean_prob": {
+    "module": "pmv_crn.evaluation.metrics",
+    "sha256": "f5bf5102c20736be588acd02ad39dc67a25911a5fae9619877c3e0d88210de0d"
+  },
+  "tmpmodel.py:best_threshold": {
+    "module": "pmv_crn.evaluation.metrics",
+    "sha256": "d44edec30a06ea80ac001934dca10b90ff908ba52241d47f41b4813249937578"
+  },
+  "tmpmodel.py:predict": {
+    "module": "pmv_crn.evaluation.inference",
+    "sha256": "65fca51332375d9f8be96ffeb714e9ceac6e23fd8c5772fad50755ce6647d5e0"
+  },
+  "tmpmodel.py:train": {
+    "module": "pmv_crn.training.engine",
+    "sha256": "252d236f00e81c06d66e98e40b10ee04d3164f38ea539af451150ef9f7183dba"
+  },
+  "tmpmodel.py:auto_search": {
+    "module": "pmv_crn.training.engine",
+    "sha256": "c0eab832fa2212217c1508a54b6a8777a07a55e074cc1467b267660ae0961b8b"
+  },
+  "tmpmodel.py:build_argparser": {
+    "module": "pmv_crn.config.cli",
+    "sha256": "e4f7d28217649e519d1cb6246678145cea346a3635345cbcfa4316fde0048f6f"
+  },
+  "tmpmodel.py:plot_prediction": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "3604a08a7623da04a9507d44423f14f673f9e186f5c30ce70be016377abd9dfa"
+  },
+  "tmpmodel.py:plot_training_curves": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "f252089279a22fd67b15994b8a12a22f103e410742600578acd6e4127026b55c"
+  },
+  "tmpmodel.py:_safe_corr_series": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "0e14a7b559b38fb1198734704a3d29b3e876fa65eacf44fed90afc77681d2d7a"
+  },
+  "tmpmodel.py:_top_rule_concept_rows": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "a24a48050be4466cc8bcf0bc85e2c326d074b86a9f263e133974585372cac39c"
+  },
+  "tmpmodel.py:export_rule_concept_maps": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "327b99d83324b923fb22a7fa1d1d172baa99fb58596c14805a9fbf7ff2080cf8"
+  },
+  "tmpmodel.py:export_point_rule_explanations": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "c8d86a0c71e26449f0ef1619362757ee02fc2de6a0a03d172aa444fe2ffe64f2"
+  },
+  "tmpmodel.py:plot_branch_probability_curves": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "474ff0df27b85806c6d334d4b98fec397c8d61af62ccd4ff086cb6a8cf9b1623"
+  },
+  "tmpmodel.py:plot_concept_rule_heatmaps": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "b5a20f2da605eaa0c21d6a954862bd0612ab4dc9fcc09dea15c9a3361fbc9163"
+  },
+  "tmpmodel.py:export_key_segments": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "89d27bb10caa1728c29609dfd9658665942c5ad8a1779a2d4591084de3e3122f"
+  },
+  "tmpmodel.py:plot_scatter_and_3d": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "51bc443e495fe3e44e6837c8726569aeb0cc79add142f0f5015f22c4df6031c4"
+  },
+  "tmpmodel.py:plot_explainability_suite": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "0c786318db761583607c8357d1f797bc9d24bbad967badbab79c1984ebc7143d"
+  },
+  "tmpmodel.py:plot_embedding_visualizations": {
+    "module": "pmv_crn.visualization.analysis",
+    "sha256": "59c175c7945b97405ce370e962e50c989823fbaf8f86656eb90cf552190a5aba"
+  },
+  "tmpmodel_balanced_split_inception.py:_original_split_indices": {
+    "module": "pmv_crn.training.balanced",
+    "sha256": "c753090cd8e152138739f6eb0f5756e2c1168f95474e78652ab96580250a75d2"
+  },
+  "tmpmodel_balanced_split_inception.py:_balanced_subset": {
+    "module": "pmv_crn.training.balanced",
+    "sha256": "f81caeeff50db8ddaa2c70747f729016d4e97f6186f4dd5f08b5171d1b27a36a"
+  },
+  "tmpmodel_balanced_split_inception.py:balanced_split_indices": {
+    "module": "pmv_crn.training.balanced",
+    "sha256": "4b7e675b455f67ba20b2e8e436c7817312f0888110fd38481ebea46964e7df2b"
+  },
+  "run_classifier_baselines.py:BPNN": {
+    "module": "pmv_crn.baselines.models",
+    "sha256": "e3ee4abe8c1efb3fff84ccd4d895de46b42d3e758d390543a97a07a8c566f8ec"
+  },
+  "run_classifier_baselines.py:CNN1D": {
+    "module": "pmv_crn.baselines.models",
+    "sha256": "bed1cded78059510263f03f6f1014f8f910d884dba2040a800d45335fa61ea64"
+  },
+  "run_classifier_baselines.py:RNNClassifier": {
+    "module": "pmv_crn.baselines.models",
+    "sha256": "8dcadbc46c396fa529161867a20e8cf48dadad71e840e5e37274298e749b1f24"
+  },
+  "run_classifier_baselines.py:TransformerClassifier": {
+    "module": "pmv_crn.baselines.models",
+    "sha256": "0417c002ec67bcc2b777677bfd43e2705f368136d4eea33fea1eb54c92a6aeac"
+  },
+  "run_classifier_baselines.py:balanced_subset": {
+    "module": "pmv_crn.baselines.data",
+    "sha256": "bb3d02b831eac93fb5f05e40d2076361bf14b929f6571aec6c30fb2f8845d59c"
+  },
+  "run_classifier_baselines.py:make_windows": {
+    "module": "pmv_crn.baselines.data",
+    "sha256": "f4797f78d653a68cbfd7df2a872c3bca6629a3f0546e0119c60215c3e9a5716d"
+  },
+  "run_classifier_baselines.py:WindowDataset": {
+    "module": "pmv_crn.baselines.data",
+    "sha256": "10bab5720e7991b81632091ac9066bbf028fef9628ef6386f9ba08fb71296ebc"
+  },
+  "run_classifier_baselines.py:prepare_data": {
+    "module": "pmv_crn.baselines.data",
+    "sha256": "22c58697d1c93c392522b2b812a63737032c09b775bfafcf05b85b8519453ca9"
+  },
+  "run_classifier_baselines.py:metrics": {
+    "module": "pmv_crn.baselines.evaluation",
+    "sha256": "6d073b9663c1d581fdc8e093b7e6b2b775fad0752789bea57c48ec58e08495cf"
+  },
+  "run_classifier_baselines.py:ce_loss_from_prob": {
+    "module": "pmv_crn.baselines.evaluation",
+    "sha256": "180386c5b7f35807cc9ea50a123ea996cbb96c8926dd0e7f49428b3afb8afe02"
+  },
+  "run_classifier_baselines.py:best_threshold": {
+    "module": "pmv_crn.baselines.evaluation",
+    "sha256": "dcba623181003c395b45daff7164cc68ef93489f3686bdf35b5c25d58d06400f"
+  },
+  "run_classifier_baselines.py:predict_torch": {
+    "module": "pmv_crn.baselines.evaluation",
+    "sha256": "95987f31c4a51bfcaa643dcafe98fd50a9b1fe595e88850d4bc42191b69b5bb7"
+  },
+  "run_classifier_baselines.py:collect_torch_embeddings": {
+    "module": "pmv_crn.baselines.evaluation",
+    "sha256": "866aded9657ac1789e151cbe8d5664f8a199ee2555deeb68209e2370f26af4c2"
+  },
+  "run_classifier_baselines.py:train_torch_model": {
+    "module": "pmv_crn.baselines.training",
+    "sha256": "9c04fef2beb9181327a9de3f990cb67c8934c9e692e02c76ecd3144d0dc83413"
+  },
+  "run_classifier_baselines.py:train_sklearn": {
+    "module": "pmv_crn.baselines.training",
+    "sha256": "de779fb5dd50562f61b109f061c7e94ff57de0d640cf48114a96838baf0bb86d"
+  },
+  "run_classifier_baselines.py:plot_summary": {
+    "module": "pmv_crn.baselines.plots",
+    "sha256": "1104b338aa5db26f282eb1b3be1d520bc5f48586e9424034487f96b57a9661c9"
+  },
+  "run_classifier_baselines.py:plot_training_history": {
+    "module": "pmv_crn.baselines.plots",
+    "sha256": "4f3f78b12b92d43094ebe2b6341c547bbaf93e8e88283baf2c9ff6785bee2d58"
+  },
+  "run_classifier_baselines.py:main": {
+    "module": "pmv_crn.baselines.runner",
+    "sha256": "243801ef9663e9210400eed7db19a4c19d7a457cfc303a6b13b5cef3bc28b443"
+  }
+}

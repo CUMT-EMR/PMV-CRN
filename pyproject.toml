@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmv-crn"
+version = "0.1.0"
+description = "Multi-source temporal and evidence-map concept-rule classification"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "matplotlib", "scikit-learn", "torch", "xgboost"]
+
+[project.optional-dependencies]
+visualization = ["umap-learn"]
+
+[project.scripts]
+pmv-crn-train = "pmv_crn.training.entrypoint:main"
+pmv-crn-baselines = "pmv_crn.baselines.runner:main"
+
+[tool.setuptools]
+py-modules = ["tmpmodel", "tmpmodel_balanced_split_inception", "dual_branch_cmr_model", "dual_branch_cmr_image_encoder_variants", "run_classifier_baselines", "train"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pmv_crn*"]
