@@ -43,7 +43,7 @@ The input contains synchronized numeric monitoring sequences and existing labels
 
 ## Training
 
-Run commands from the repository directory after activating the environment. The following settings are an example, not a verified manuscript reproduction protocol.
+Run commands from the repository directory after activating the environment.
 
 ```bash
 python train.py --input-csv data/monitoring.csv --out-dir results/full --encoder inception --image-map-type sensor_trajectory9 --model-mode full --split-mode blocked_random_stratified --window 256 --img-size 32 --sample-stride 1 --epochs 60 --batch-size 256 --lr 0.0006 --dropout 0.20 --seed 2026
