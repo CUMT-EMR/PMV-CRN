@@ -53,12 +53,6 @@ python train.py --input-csv data/monitoring.csv --out-dir results/full --encoder
 python train.py --help
 ```
 
-Equivalent entry points are `python scripts/train.py`, `python -m pmv_crn.training.entrypoint`, and the installed `pmv-crn-train` command. Baselines can also be launched with `python scripts/train_baselines.py` or `pmv-crn-baselines`.
-
-The `--encoder` option accepts `inception`, `sensor_grouped`, `patch_transformer`, or `precursor`.
-
-Available model modes include `full`, `temporal_only`, `sensor_image_only`, `no_gate_fusion`, `no_image_branch`, `no_stat_features`, and `fixed_weight_fusion`. Fixed-weight fusion is separate from the learned-fusion `full` mode.
-
 
 ## Baselines
 
