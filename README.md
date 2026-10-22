@@ -71,8 +71,6 @@ python run_classifier_baselines.py --input-csv data/monitoring.csv --out-dir res
 ```bash
 python -m unittest discover -s tests -v
 ```
-
-The structural checks verify Python syntax, local imports, acyclic package imports, bound global names, unchanged original definition ASTs, and the absence of comments and docstrings without importing the training dependencies. 
 ## Publication
 
 This repository retains the GPL-3.0 license selected in the existing GitHub repository. See `LICENSE` for the complete terms. The authors remain responsible for permission to release the included implementation. Public repository: https://github.com/CUMT-EMR/PMV-CRN.
