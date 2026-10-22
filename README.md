@@ -20,9 +20,6 @@ Multi-source temporal and evidence-map classification with concept-rule represen
 | `configs/` | Definition-integrity manifest for the refactor |
 | `tests/` | Structural and numerical regression checks |
 | `docs/` | Architecture and compatibility documentation |
-
-See [the module layout](docs/architecture.md) for the complete tree. The original filenames still work, but the implementation now lives in the package modules.
-
 ## Installation
 
 Use Python 3.10 or newer in a virtual environment.
