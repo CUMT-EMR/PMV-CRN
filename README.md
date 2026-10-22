@@ -66,16 +66,6 @@ Available model modes include `full`, `temporal_only`, `sensor_image_only`, `no_
 python run_classifier_baselines.py --input-csv data/monitoring.csv --out-dir results/baselines --window 256 --sample-stride 1 --epochs 60 --batch-size 256 --lr 0.0006 --seed 2026
 ```
 
-## Implementation Boundaries
-
-The balanced training entry point subsamples training, validation, and test indices for class balance.
-
-The blocked random split implementation is not a global chronological split. Its purge procedure filters training indices against validation and test indices; 
-
-The temporal-only mode selects the temporal prediction head but retains other branch computations and some auxiliary training objectives. The no-image-branch mode masks map-derived prediction inputs and retains the fusion pathway and final classifier.
-
-The standalone preprocessing chain and a verified manuscript reproduction configuration are outside this snapshot. 
-
 ## Local Checks
 
 ```bash
