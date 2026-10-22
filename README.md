@@ -41,8 +41,6 @@ Provide a CSV containing `AE`, `EMR`, `GAS`, and `LABEL`. An optional `date` col
 
 The input contains synchronized numeric monitoring sequences and existing labels. This repository does not generate field annotations. Missing or invalid observations should be handled before classification.
 
-Raw field data, trained weights, exported experiment results, and manuscript files are not included. Only use data you are authorized to process and share.
-
 ## Training
 
 Run commands from the repository directory after activating the environment. The following settings are an example, not a verified manuscript reproduction protocol.
