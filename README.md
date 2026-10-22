@@ -33,7 +33,7 @@ python -m pip install -r requirements.txt
 python -m pip install -e . --no-deps
 ```
 
-Activate the environment before installing or running. Install the appropriate PyTorch build for the intended CPU or CUDA environment. `umap-learn` is optional for UMAP visualizations. Dependency versions are not pinned because the original experiment environment has not been verified.
+Activate the environment before installing or running. Install the appropriate PyTorch build for the intended CPU or CUDA environment. `umap-learn` is optional for UMAP visualizations.
 
 ## Input
 
