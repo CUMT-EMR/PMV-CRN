@@ -4,8 +4,6 @@ Multi-source temporal and evidence-map classification with concept-rule represen
 
 ## Version Status
 
-This repository packages a local implementation snapshot. It is not yet verified as the final implementation used for the Underground Space manuscript, and it does not claim to reproduce the manuscript's reported metrics.
-
 The original model and training algorithms are preserved in a modular Python package. Python comments and docstrings have been removed from the copied sources. The training entry point selects an image encoder and delegates to the existing training implementation. Root-level legacy modules remain as compatibility entry points.
 
 ## Contents
